@@ -1,0 +1,47 @@
+2022-07-01 06:41:49,635 INFO 1 [celery.worker.consumer.connection] [user None] [ip None] connection.py:24 - Connected to redis://redis:6379/0
+2022-07-01 06:41:49,674 INFO 1 [celery.worker.consumer.mingle] [user None] [ip None] mingle.py:43 - mingle: searching for neighbors
+2022-07-01 06:41:50,735 INFO 1 [celery.worker.consumer.mingle] [user None] [ip None] mingle.py:52 - mingle: all alone
+2022-07-01 06:41:50,779 INFO 1 [celery.apps.worker] [user None] [ip None] worker.py:161 - celery@edx.lms.core.default.%6996e537be71 ready.
+2022-07-01 06:50:31,159 INFO 7 [tracking] [user None] [ip 172.18.0.1] logger.py:41 - {"name": "/", "context": {"user_id": null, "path": "/", "course_id": "", "org_id": "", "enterprise_uuid": ""}, "username": "", "session": "", "ip": "172.18.0.1", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.20 Safari/537.36", "host": "local.overhang.io", "referer": "", "accept_language": "en-US,en;q=0.9", "event": "{\"GET\": {}, \"POST\": {}}", "time": "2022-07-01T06:50:31.158586+00:00", "event_type": "/", "event_source": "server", "page": null}
+2022-07-01 06:50:44,377 INFO 20 [tracking] [user None] [ip 172.18.0.1] logger.py:41 - {"name": "/theming/asset/images/favicon.ico", "context": {"user_id": null, "path": "/theming/asset/images/favicon.ico", "course_id": "", "org_id": "", "enterprise_uuid": ""}, "username": "", "session": "", "ip": "172.18.0.1", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.20 Safari/537.36", "host": "local.overhang.io", "referer": "http://apps.local.overhang.io/", "accept_language": "en-US,en;q=0.9", "event": "{\"GET\": {}, \"POST\": {}}", "time": "2022-07-01T06:50:44.376980+00:00", "event_type": "/theming/asset/images/favicon.ico", "event_source": "server", "page": null}
+2022-07-02 17:25:48,143 WARNING 1 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/boto/plugin.py:40: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+
+2022-07-02 17:25:48,311 WARNING 1 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/botocore/vendored/requests/packages/urllib3/_collections.py:1: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping
+
+2022-07-02 17:25:50,536 WARNING 1 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/edx-platform/openedx/core/types/admin.py:49: DeprecationWarning: Django 3.2+ available: the _admin_display method and the AdminMethodclass should be removed from openedx.core.types
+  warnings.warn(
+
+2022-07-02 17:25:54,661 WARNING 12 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/boto/plugin.py:40: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+
+2022-07-02 17:25:54,727 WARNING 12 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/botocore/vendored/requests/packages/urllib3/_collections.py:1: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping
+
+2022-07-02 17:25:56,745 WARNING 12 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/edx-platform/openedx/core/types/admin.py:49: DeprecationWarning: Django 3.2+ available: the _admin_display method and the AdminMethodclass should be removed from openedx.core.types
+  warnings.warn(
+
+2022-07-02 17:25:57,401 INFO 12 [django.utils.autoreload] [user None] [ip None] autoreload.py:637 - Watching for file changes with StatReloader
+2022-07-11 05:16:25,431 WARNING 1 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/boto/plugin.py:40: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+
+2022-07-11 05:16:25,558 WARNING 1 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/botocore/vendored/requests/packages/urllib3/_collections.py:1: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping
+
+2022-07-11 05:16:27,493 WARNING 1 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/edx-platform/openedx/core/types/admin.py:49: DeprecationWarning: Django 3.2+ available: the _admin_display method and the AdminMethodclass should be removed from openedx.core.types
+  warnings.warn(
+
+2022-07-11 05:16:31,338 WARNING 12 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/boto/plugin.py:40: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+  import imp
+
+2022-07-11 05:16:31,417 WARNING 12 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/venv/lib/python3.8/site-packages/botocore/vendored/requests/packages/urllib3/_collections.py:1: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
+  from collections import Mapping, MutableMapping
+
+2022-07-11 05:16:33,262 WARNING 12 [py.warnings] [user None] [ip None] warnings.py:109 - /openedx/edx-platform/openedx/core/types/admin.py:49: DeprecationWarning: Django 3.2+ available: the _admin_display method and the AdminMethodclass should be removed from openedx.core.types
+  warnings.warn(
+
+2022-07-11 05:16:33,805 INFO 12 [django.utils.autoreload] [user None] [ip None] autoreload.py:637 - Watching for file changes with StatReloader
+2022-07-11 05:25:01,937 INFO 12 [tracking] [user None] [ip 172.19.0.1] logger.py:41 - {"name": "/", "context": {"user_id": null, "path": "/", "course_id": "", "org_id": "", "enterprise_uuid": ""}, "username": "", "session": "", "ip": "172.19.0.1", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "host": "0.0.0.0:8000", "referer": "", "accept_language": "en-US,en;q=0.9", "event": "{\"GET\": {}, \"POST\": {}}", "time": "2022-07-11T05:25:01.937144+00:00", "event_type": "/", "event_source": "server", "page": null}
+2022-07-11 05:26:13,990 INFO 12 [tracking] [user None] [ip 172.19.0.1] logger.py:41 - {"name": "/", "context": {"user_id": null, "path": "/", "course_id": "", "org_id": "", "enterprise_uuid": ""}, "username": "", "session": "", "ip": "172.19.0.1", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "host": "local.overhang.io:8000", "referer": "", "accept_language": "en-US,en;q=0.9", "event": "{\"GET\": {}, \"POST\": {}}", "time": "2022-07-11T05:26:13.990521+00:00", "event_type": "/", "event_source": "server", "page": null}
+2022-07-11 05:28:07,747 INFO 12 [tracking] [user None] [ip 172.19.0.1] logger.py:41 - {"name": "/", "context": {"user_id": null, "path": "/", "course_id": "", "org_id": "", "enterprise_uuid": ""}, "username": "", "session": "", "ip": "172.19.0.1", "agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36", "host": "preview.local.overhang.io:8000", "referer": "", "accept_language": "en-US,en;q=0.9", "event": "{\"GET\": {}, \"POST\": {}}", "time": "2022-07-11T05:28:07.746866+00:00", "event_type": "/", "event_source": "server", "page": null}
